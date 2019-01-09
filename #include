@@ -1,0 +1,8 @@
+#include<stdio.h>
+int input (void)
+why # is used in the beginning?
+  #include <stdio.h>
+is a directive to the C preprocessor. Lines beginning with # are processed by the prepro-
+cessor before compilation.Page no.-42
+  
+   It is from where preprocessor starts to process the code.
