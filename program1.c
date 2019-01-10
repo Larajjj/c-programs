@@ -54,5 +54,5 @@ what is int main (void)?
      No parameters are passed.
      
 what is void in "void output"?
-     values are not returned.
+     void output indicates output does not return any values.
      
