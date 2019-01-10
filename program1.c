@@ -55,4 +55,9 @@ what is int main (void)?
      
 what is void in "void output"?
      void output indicates output does not return any values.
+    
+What are local variables ?
+     They are declared inside a function and can be used only inside that function.
      
+What are global variables ?
+     They are declared outside any function and can be accessed on any funtion inside the program.
