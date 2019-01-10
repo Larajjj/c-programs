@@ -42,3 +42,17 @@ what is int main?
      Every program in C begins executing at the function main . 
      Functions can return information. 
      The keyword int to the left of main indicates that main “returns” an integer (whole-number) value.
+    
+what is call by value?
+     If we change the parameters in the called function, it will not change in the calling function.
+     
+what is call by reference?
+     If we change the parameters in the called function, it will change in the calling funtion.
+
+what is int main (void)?
+     Void indicates main does not receive any information.
+     No parameters are passed.
+     
+what is void in "void output"?
+     values are not returned.
+     
