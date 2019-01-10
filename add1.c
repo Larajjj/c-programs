@@ -21,6 +21,8 @@ int main()
         int x,y,z;
         input(&x, &y);
         z=add(x,y);
+        output(x,y,z);
+}
 
 
 #include<stdio.h>
@@ -41,4 +43,4 @@ what is int main?
      C programs contain one or more functions, one of which must be main . 
      Every program in C begins executing at the function main . 
      Functions can return information. 
-     The keyword int to the left of main indicates that main “returns” aninteger (whole-number) value.
+     The keyword int to the left of main indicates that main “returns” an integer (whole-number) value.
