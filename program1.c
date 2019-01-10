@@ -21,8 +21,4 @@ int main(void)
      int b=compute(a);
      output(a,b);
 }
-why # is used in the beginning?
-what is #include?
-what is stdio.h?
-why "<" and ">" are used?
-why there is a colour change in the code?
+
