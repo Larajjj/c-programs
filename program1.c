@@ -64,3 +64,4 @@ What are global variables ?
      
 what is printf?
      it instructs the computer to perform an action.
+     it is used to write the set of characters into the file.
