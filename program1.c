@@ -61,3 +61,6 @@ What are local variables ?
      
 What are global variables ?
      They are declared outside any function and can be accessed on any funtion inside the program.
+     
+what is printf?
+     it instructs the computer to perform an action.
