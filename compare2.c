@@ -19,7 +19,7 @@ int compare(int a, int b)
 }
 void output(int a, int b, int c)
 {
-   printf("%d<%d is %d",a,b,c);
+   printf("%d is smaller among %d and %d",c,a,b);
 }
 int main()
 {
@@ -30,28 +30,19 @@ int main()
 }
 
 
+Enter a number
+56
+Enter a number
+32
+32 is smaller among 56 and 32nvidia@nvidia-OptiPlex-3050:~$ 
+nvidia@nvidia-OptiPlex-3050:~$ ./a.out
+Enter a number
+32
+Enter a number
+56
+32 is smaller among 32 and 56nvidia@nvidia-OptiPlex-3050:~$ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+what is a logical error?
 
 
 
