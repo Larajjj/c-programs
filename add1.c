@@ -24,23 +24,23 @@ int main()
         output(x,y,z);
 }
 
-
-#include<stdio.h>
-
-why # is used in the beginning?
-  #include <stdio.h>
-is a directive to the C preprocessor. Lines beginning with # are processed by the preprocessor before compilation.  
-Page no.42
-  
-   It is from where preprocessor starts to process the code.
-The C preprocessor executes before a program is compiled.
-
-what is #include<stdio.h> ?
-    It tells the preprocessor to include the contents of the standard input/output header ( <stdio.h> ) in the program.
+what is "%d"?
+	
+	
+	
+	
+	
+	
 
 
-what is int main?
-     C programs contain one or more functions, one of which must be main . 
-     Every program in C begins executing at the function main . 
-     Functions can return information. 
-     The keyword int to the left of main indicates that main “returns” an integer (whole-number) value.
+ what are the different ways to debug a logical error?       
+ 1.Comparing with the existing program
+     problem: strategy to learn a program not a learn programming.
+	     
+ 2.Mental tracing 
+     If understanding is wrong, tracing goes wrong.
+
+ 3.printf
+     We can find the control flow.
+ 
+ ddd-data display debugger
