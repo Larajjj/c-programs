@@ -38,9 +38,9 @@ what is "%d"?
      problem: strategy to learn a program not a learn programming.
 	     
  2.Mental tracing 
-     If understanding is wrong, tracing goes wrong.
+    problem: If understanding is wrong, tracing goes wrong.
 
  3.printf
-     We can find the control flow.
+    problem: We cannot find the control flow.
  
- ddd-data display debugger
+ 4.ddd-data display debugger
