@@ -24,6 +24,33 @@ int main()
         output(x,y,z);
 }
 
+
+222.c: In function ‘output’:
+222.c:18:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+222.c: In function ‘main’:
+222.c:22:15: warning: passing argument 1 of ‘input’ makes pointer from integer without a cast [-Wint-conversion]
+         input(x, y);
+               ^
+222.c:2:6: note: expected ‘int *’ but argument is of type ‘int’
+ void input (int*a,int*b)
+      ^~~~~
+222.c:22:18: warning: passing argument 2 of ‘input’ makes pointer from integer without a cast [-Wint-conversion]
+         input(x, y);
+                  ^
+222.c:2:6: note: expected ‘int *’ but argument is of type ‘int’
+ void input (int*a,int*b)
+      ^~~~~
+
+Enter a23
+Enter b12
+23 + 12 is 35
+
+
+
+
+
 what is scanf ?
 	Is is used to obtain a value from the user.This scanf has two arguments,
 "%d" and &integer1 .
@@ -56,19 +83,3 @@ what is actual parameter?
 what is formal parameter?
 	variables
 example: num 1 and num 2
-
-	
-	
-
-
- what are the different ways to debug a logical error?       
- 1.Comparing with the existing program
-     problem: strategy to learn a program not a learn programming.
-	     
- 2.Mental tracing 
-    problem: If understanding is wrong, tracing goes wrong.
-
- 3.printf
-    problem: We cannot find the control flow.
- 
- 4.ddd-data display debugger
