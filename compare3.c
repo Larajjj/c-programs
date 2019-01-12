@@ -45,6 +45,8 @@ int main()
 33.c:25:1: error: expected ‘;’ before ‘}’ token
 
 
+
+
 enter a number
 2
 enter a number
@@ -52,6 +54,8 @@ enter a number
 enter a number
 4
 3 is smaller among 2,3 and 4nvidia@nvidia-OptiPlex-3050:~$ vim 33.c
+
+
 
 
 #include <stdio.h>
@@ -79,16 +83,6 @@ int compare(int a, int b, int c)
 
 
 
-
-
-
-
-
-
-
-
-
-
 33.c: In function ‘compare’:
 33.c:14:9: error: expected ‘)’ before ‘and’
   if(a<b and a<c){
@@ -99,3 +93,50 @@ int compare(int a, int b, int c)
 33.c:20:9: error: expected ‘)’ before ‘and’
   if(c<a and c<b){
          ^~~
+               
+                 
+#include <stdio.h>
+int input(int*a, int*b, int*c)
+{
+        printf("enter a number\n");
+        scanf("%d",a);
+        printf("enter a number\n");
+        scanf("%d",b);
+        printf("enter a number\n");
+        scanf("%d",c);
+}
+int compare(int a, int b, int c)
+{
+        int d;
+        if(a<b & a<c){
+        d=a;
+        }
+        if(b<c & b<a);{
+        d=b;
+        }
+        if(c<a & c<b){
+        d=c;
+        }
+        return d;
+        
+}
+void output(int a, int b, int c, int d)
+{
+        printf("%d is smaller among %d,%d,%d", d,a,b,c);
+}
+int main()
+{
+        int w,x,y,z;
+        input(&w,&x,&y);
+        z=compare(w,x,y);
+        output(w,x,y,z);
+}
+
+                                                              
+enter a number
+2
+enter a number
+3
+enter a number
+4
+3 is smaller among 2,3,4
