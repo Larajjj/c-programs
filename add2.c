@@ -31,14 +31,19 @@ what is scanf ?
 what is "%d" ?
 	The %d conversion specifier indicates that the data should be
 an integer (the letter d stands for “decimal integer”). The % in this context is treated by scanf
-as a special character that begins a conversion specifier. Page no :60
+as a special character that begins a conversion specifier. 
+	Page no :60
 	
 what is a conversion specifier?
 	A conversion specifier begins with a percent sign, and ends with one of the following 
 output conversion characters .
 	
 what is "&" ?
-	
+	ampersand ( & )—called
+the address operator in C—followed by a variable name. The ampersand, when combined with
+a variable name, tells scanf the location in memory at which the variable is located. The com-
+puter then stores the value for the variable at that location.
+	Page no : 60
 	
 	
 	
