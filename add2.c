@@ -44,6 +44,16 @@ the address operator in C—followed by a variable name. The ampersand, when com
 a variable name, tells scanf the location in memory at which the variable is located. The com-
 puter then stores the value for the variable at that location.
 	Page no : 60
+		
+what is a calling function?
+	Calling function means, the defined function has to be called from some place. In simply C,
+it is main() function from where function could be called.
+	
+what is actual parameter?
+	when a function is called, the values that are passed in the call are called actual
+parameters. Ex - 
+	
+what is formal parameter?
 	
 	
 	
