@@ -50,11 +50,13 @@ what is a calling function?
 it is main() function from where function could be called.
 	
 what is actual parameter?
-	when a function is called, the values that are passed in the call are called actual
-parameters. Ex - 
+	actual value passed.
+ Ex - a and b
 	
 what is formal parameter?
-	
+	variables
+example: num 1 and num 2
+
 	
 	
 
