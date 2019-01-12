@@ -24,9 +24,20 @@ int main()
         output(x,y,z);
 }
 
-what is "%d"?
+what is scanf ?
+	Is is used to obtain a value from the user.This scanf has two arguments,
+"%d" and &integer1 .
 	
+what is "%d" ?
+	The %d conversion specifier indicates that the data should be
+an integer (the letter d stands for “decimal integer”). The % in this context is treated by scanf
+as a special character that begins a conversion specifier. Page no :60
 	
+what is a conversion specifier?
+	A conversion specifier begins with a percent sign, and ends with one of the following 
+output conversion characters .
+	
+what is "&" ?
 	
 	
 	
