@@ -44,3 +44,7 @@ enter a number
 enter a number
 2
 2 is smaller among 6,8,2
+        
+
+2. Using min variable:
+
