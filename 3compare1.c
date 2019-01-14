@@ -122,6 +122,36 @@ int main()
 
 
 
+#include <stdio.h>
+int input(int*a, int*b, int*c)
+{
+        printf("enter a number\n");
+        scanf("%d",a);
+        printf("enter a number\n");
+        scanf("%d",b);
+        printf("enter a number\n");
+        scanf("%d",c);
+}
+
+int compare(int p, int q, int r)
+
+{
+        return (p<q ?(p<r ? p:r):(q<r ? q:r));
+}
+
+void output(int a, int b, int c, int d)
+{
+        printf("%d is smaller among %d,%d,%d", d,a,b,c);
+}
+int main()
+{
+        int w,x,y,z;
+        input(&w,&x,&y);
+        z=compare(w,x,y);
+        output(w,x,y,z);
+}
+
+
 
 what is an array
 how to initialise array using array literals
