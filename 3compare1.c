@@ -120,3 +120,11 @@ int main()
         output(w,x,y,z);
 }
 
+
+
+
+what is an array
+how to initialise array using array literals
+how to declare an array 
+how to get the value of array element
+how to declare the value of array element
