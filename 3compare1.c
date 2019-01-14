@@ -11,13 +11,13 @@ int input(int*a, int*b, int*c)
 int compare(int a, int b, int c)
 {
         int d;
-        if(a<b & a<c){
+        if(a<b && a<c){
         d=a;
         }
-        if(b<c & b<a){
+        if(b<c && b<a){
         d=b;
         }
-        if(c<a & c<b){
+        if(c<a && c<b){
         d=c;
         }
         return d;
