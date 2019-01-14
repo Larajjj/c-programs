@@ -1,5 +1,3 @@
-1.Using nested if
-
 #include <stdio.h>
 int input(int*a, int*b, int*c)
 {
@@ -16,7 +14,7 @@ int compare(int a, int b, int c)
         if(a<b & a<c){
         d=a;
         }
-        if(b<c & b<a);{
+        if(b<c & b<a){
         d=b;
         }
         if(c<a & c<b){
@@ -46,5 +44,5 @@ enter a number
 2 is smaller among 6,8,2
         
 
-2. Using min variable:
+
 
