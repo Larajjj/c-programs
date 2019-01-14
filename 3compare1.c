@@ -43,6 +43,7 @@ enter a number
 2
 2 is smaller among 6,8,2
         
+        
 
 #include <stdio.h>
 int input(int*a, int*b, int*c)
@@ -82,3 +83,40 @@ int main()
         z=compare(w,x,y);
         output(w,x,y,z);
 }
+
+
+
+#include <stdio.h>
+int input(int*a, int*b, int*c)
+{
+        printf("enter a number\n");
+        scanf("%d",a);
+        printf("enter a number\n");
+        scanf("%d",b);
+        printf("enter a number\n");
+        scanf("%d",c);
+}
+int min(int a, int b, int c)
+{
+        int min=a;
+
+        if (b<min)
+        min=b;
+
+        if (c<min)
+        min=c;
+
+        return min;
+}
+void output(int a, int b, int c, int d)
+{
+        printf("%d is smaller among %d,%d,%d", d,a,b,c);
+}
+int main()
+{
+        int w,x,y,z;
+        input(&w,&x,&y);
+        z=min(w,x,y);
+        output(w,x,y,z);
+}
+
