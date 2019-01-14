@@ -62,16 +62,12 @@ int compare(int a, int b, int c)
                 return a;
                 else return c;
         }
-                else if (b<c){
-                if(b<a)
+                else if (b<a){
+                if(b<c)
                 return b;
                 else return c;
         }
-                else if (c<a){
-                if (c<b)
-                return c;
-                else return a;
-        }       
+                   
 }
                                                               
 }
