@@ -128,3 +128,5 @@ how to initialise array using array literals
 how to declare an array 
 how to get the value of array element
 how to declare the value of array element
+how to return the value of array?
+what is variable length array?
