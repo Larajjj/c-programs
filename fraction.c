@@ -30,4 +30,4 @@ void add_fraction(struct fraction,struct fraction)
         int h;
         fraction->h=(f-> numerator*g-> denominator + g-> numerator*f-> denominator)
         return h;
-                                                              13,1-8        Top
+                                                             
