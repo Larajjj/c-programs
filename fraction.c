@@ -57,3 +57,24 @@ int main()
 {
 
 }
+  
+  
+  
+ include <stdio.h>
+struct fraction
+{
+        int numerator;
+        int denominator;
+};
+struct int input(struct fraction f,struct fraction g)
+{
+        printf("enter num 1:");
+        scanf("%d",&f->numerator);
+        printf("enter num 2:");
+        scanf("%d",&g->numerator);
+        printf("enter den 1:");
+        scanf("%d",&f->denominator);
+        printf("enter den 2:");
+        scanf("%d",&g->denominator);
+}
+
