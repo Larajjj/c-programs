@@ -78,3 +78,37 @@ struct int input(struct fraction f,struct fraction g)
         scanf("%d",&g->denominator);
 }
 
+
+  
+ #include <stdio.h>
+struct fraction
+{
+        int numerator;
+        int denominator;
+};
+void input_struct_fraction(struct fraction *f,struct fraction *g)
+{
+        printf("enter num 1:");
+        scanf("%d",&f->numerator);
+        printf("enter num 2:");
+        scanf("%d",&g->numerator);
+        printf("enter den 1:");
+        scanf("%d",&f->denominator);
+        printf("enter den 2:");
+        scanf("%d",&g->denominator);
+}
+struct fraction add_fraction( struct fraction f,struct fraction g)
+{
+        struct fraction h;
+        h.numerator=(f.numerator*g.denominator+g.numerator*f.denominator);
+        h.denominator=f.denominator*g.denominator;
+        return h;
+}
+/*
+void output_struct_fraction(struct fraction f,struct fraction g,struct fraction h)
+{
+        printf("%d+%d=%d",f,g,h);
+}*/
+int main()
+{
+}
