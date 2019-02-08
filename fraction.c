@@ -34,7 +34,7 @@ void add_fraction(struct fraction,struct fraction)
 
   
   
-  #include <stdio.h>
+#include <stdio.h>
 struct fraction
 {
         int numerator;
@@ -116,7 +116,7 @@ int main()
   
   
   
- #include <stdio.h>
+#include <stdio.h>
 struct fraction
 {
         int numerator;
