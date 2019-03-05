@@ -8,7 +8,6 @@ int input()
         {
                 scanf("%d",&add[i]);
         }
-        return add;
 }
 int compute(int n,add)
 {
@@ -16,7 +15,6 @@ int compute(int n,add)
         {
                 sum=sum+add[i];
         }
-        return sum;
 }
 void output(int sum)
 {
