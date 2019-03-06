@@ -28,3 +28,26 @@ int main()
 {
 }
 
+
+
+
+int compute(int n,add[n])
+{
+        int i,sum=0;
+        for (i=0;i<n;i++)
+        {
+                sum=sum+add[i];
+        }
+        return sum;
+}
+void output(int sum)
+{
+        printf("%d is the sum of n different numbers",sum);
+}
+int main()
+{
+        int q,n,s,add[q];
+        input(&n,&add[q]);
+        s=compute(n,add[q]);
+        output(s);
+}
