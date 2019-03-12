@@ -1,17 +1,18 @@
-
 #include <stdio.h>
-void input()
+int input()
 {
         int n;
-        int i,add[n];
         printf("enter numbers to be added:");
         scanf("%d",&n);
+        int i,add[n];
+        printf("enter no to be added:");
         for(i=0;i<n;i++)
         {
                 scanf("%d",&add[i]);
         }
+        return n;
 }
-int compute(int n,add[n])
+int compute(int n,int add[n])
 {
         int i,sum=0;
         for (i=0;i<n;i++)
@@ -26,8 +27,8 @@ void output(int sum)
 }
 int main()
 {
-        int q,n,s,add[q];
-        input(&n,&add[q]);
-        s=compute(n,add[q]);
-        output(s);
-}
+        int n;
+        n=input();
+        int add[n],s=0;
+        s=compute(n,add);
+      }
