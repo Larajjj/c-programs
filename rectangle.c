@@ -19,7 +19,7 @@ int input1()
         scanf("%d",&n);
         return n;
 }
-void input2(int n,struct rectangle a[20])
+void input2(int n,struct rectangle a[])
 {
         int i,j;
         for(i=0;i<n;i++)
@@ -33,9 +33,34 @@ void input2(int n,struct rectangle a[20])
                         printf("%f,%f\n",a[i].v[j].x,a[i].v[j].y);
                 }
         }
+
+}
+float distance(float x1,float x2,float y1,float y2)
+{
+        float d;
+        d=sqrt((x2-x1)*(x2-x1)-(y2-y1)*(y2-y1));
+        return d;
+}
+void compute1(int n, struct rectangle a[])
+{
+        int i;
+        for(i=0;i<n;i++)
+        {
+                int j=0;
+                a[i].l=distance(a[i].v[j].x,a[i].v[j+1].x,a[i].v[j].y,a[i].v[j+1].y);
+                a[i].b=distance(a[i].v[j+1].x,a[i].v[j+2].x,a[i].v[j+1].y,a[i].v[j+2].y);
+        }
+}
+void compute2(int n,struct rectangle a[])
+{
+    int i;
+    for(i=0;i<n;i++)
+    {
+        printf("l=%f,b=%f",a[i].l,a[i].b);
+        a[i].a=a[i].l*a[i].b;
+    }
 }
 int main()
 {
 }
 
-                                                                                                                            1,1           Top
