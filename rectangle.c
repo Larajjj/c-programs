@@ -60,6 +60,15 @@ void compute2(int n,struct rectangle a[])
         a[i].a=a[i].l*a[i].b;
     }
 }
+void output(int n,struct rectangle a[])
+{
+    int i;
+    for(i=0;i<n;i++)
+    {
+        printf("area of %d rectangle is %f",i+1,a[i].a);
+    }
+}
+
 int main()
 {
 }
